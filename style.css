@@ -1,0 +1,57 @@
+html {
+  font-size: 62.5%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+a {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.search {
+  max-width: 50rem;
+}
+
+.search-input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  background-color: transparent;
+}
+
+.search-input:focus {
+  box-shadow: 0 0 0 2px #ffe0dd;
+}
+
+.search-input:focus + .search-list {
+  opacity: 1;
+}
+
+.search-list {
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  padding: 1.5rem;
+  box-shadow: 0 0 10px -2px rgba(0, 0, 0, 0.25);
+  opacity: 0;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+}
+a {
+  display: flex;
+  margin: 10px 0;
+  padding: 1.5rem;
+  font-style: 1.4rem;
+  border-radius: 4px;
+  transition: 0.2 ease;
+}
+
+a:hover {
+  color: #ff695b;
+  background-color: #ffe0dd;
+}
